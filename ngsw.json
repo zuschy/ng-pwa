@@ -1,0 +1,164 @@
+{
+  "configVersion": 1,
+  "timestamp": 1565075268039,
+  "index": "https://pzuschlag.github.io/ng-pwa/./index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://pzuschlag.github.io/ng-pwa/favicon.ico",
+        "https://pzuschlag.github.io/ng-pwa/index.html",
+        "https://pzuschlag.github.io/ng-pwa/main-es2015.474783269dd4645f97a9.js",
+        "https://pzuschlag.github.io/ng-pwa/main-es5.40ef41afd65122a96491.js",
+        "https://pzuschlag.github.io/ng-pwa/polyfills-es2015.e4a1185e6871d06f842f.js",
+        "https://pzuschlag.github.io/ng-pwa/polyfills-es5.72845f0db871433d1fef.js",
+        "https://pzuschlag.github.io/ng-pwa/runtime-es2015.10a1f01eef199006286d.js",
+        "https://pzuschlag.github.io/ng-pwa/runtime-es5.9ad22a88fcc70a015907.js",
+        "https://pzuschlag.github.io/ng-pwa/styles.c240c7d8289abe237023.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-128x128.png",
+        "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-144x144.png",
+        "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-152x152.png",
+        "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-192x192.png",
+        "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-384x384.png",
+        "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-512x512.png",
+        "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-72x72.png",
+        "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-96x96.png",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/config.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/config_active.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/heart.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/heart_active.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/hotel.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/hotel_active.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/launch.jpg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/logo-hotel.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/logo.png",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/notification.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/notification_active.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/search-result-page/stars-blue.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/search-result-page/stars-gray.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/search.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/search_active.svg",
+        "https://pzuschlag.github.io/ng-pwa/assets/images/spinner.svg",
+        "https://pzuschlag.github.io/ng-pwa/config.88c7c2349606d6ac7ec9.svg",
+        "https://pzuschlag.github.io/ng-pwa/config_active.f29d9b56345656fca6ab.svg",
+        "https://pzuschlag.github.io/ng-pwa/heart.6311dbf5958ae0c7662c.svg",
+        "https://pzuschlag.github.io/ng-pwa/heart_active.5591b308eea8e51399c6.svg",
+        "https://pzuschlag.github.io/ng-pwa/hotel.5bffcda7783f4164850d.svg",
+        "https://pzuschlag.github.io/ng-pwa/hotel_active.4744d964e2842d982b03.svg",
+        "https://pzuschlag.github.io/ng-pwa/launch.6de7bddc2382b1983e47.jpg",
+        "https://pzuschlag.github.io/ng-pwa/search.df55ac695ef9dba2e194.svg",
+        "https://pzuschlag.github.io/ng-pwa/search_active.ece0edc3625e60618ca0.svg",
+        "https://pzuschlag.github.io/ng-pwa/spinner.99c9da470a86818ad222.svg",
+        "https://pzuschlag.github.io/ng-pwa/stars-gray.801661816f06931d3c96.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "accomondation-images",
+      "patterns": [
+        "https:\\/\\/pzuschlag\\.github\\.io\\/ng-pwa\\/(?:.+\\/)?hotel\\/image\\/(?:.+\\/)?[^/]*\\.jpg"
+      ],
+      "strategy": "performance",
+      "maxSize": 250,
+      "maxAge": 604800000,
+      "version": 1
+    },
+    {
+      "name": "rest-catalog",
+      "patterns": [
+        "https:\\/\\/pzuschlag\\.github\\.io\\/ng-pwa\\/(?:.+\\/)?catalog\\/"
+      ],
+      "strategy": "performance",
+      "maxSize": 5,
+      "maxAge": 86400000,
+      "version": 1
+    },
+    {
+      "name": "rest-offer",
+      "patterns": [
+        "https:\\/\\/pzuschlag\\.github\\.io\\/ng-pwa\\/(?:.+\\/)?offer\\/"
+      ],
+      "strategy": "freshness",
+      "maxSize": 5,
+      "maxAge": 3600000,
+      "timeoutMs": 3000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-128x128.png": "089caf94dc8900c8261e7ce853e640f20a05a111",
+    "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-144x144.png": "afeeb609c35e289ffca43ce63d1fe1a6674b7578",
+    "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-152x152.png": "393e709aaf10ad10eed7e2ac9475bfd515972015",
+    "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-192x192.png": "00ccba61efb61a9b3b40c2c74991d6a13a428230",
+    "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-384x384.png": "4cd9263a1dd3fda5189adb0080d4eab190102cb1",
+    "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-512x512.png": "dbcdf005452fbb7e6f545f0bdd157d71894d5b57",
+    "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-72x72.png": "b8baed47638fdf8640706fde31c5f17d51d0a262",
+    "https://pzuschlag.github.io/ng-pwa/assets/icons/icon-96x96.png": "787e0022593950f41ad79b9953513fcfe9ca5c6c",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/config.svg": "f3084e11824326e9b23659daf4a29f828aba6c4a",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/config_active.svg": "e3509c5512283bc21119b0886f7b0c196938de43",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/heart.svg": "16cc9bd625c833f4460faa819624aa3b31ad972f",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/heart_active.svg": "28458a213b22056eb8885f1d15417d8c4b6a031b",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/hotel.svg": "a18c31ca35777fa2e0f59d794d898340fd6494cc",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/hotel_active.svg": "1e6ba55e50eddcf1224d85dd600df8d300fe41f3",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/launch.jpg": "bb17faa4a3040027414e763d7f086637aed9cc0c",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/logo-hotel.svg": "796dbd22a888e4d40a451e5cec990bc5561bcb94",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/logo.png": "34c00d52a1849aec25455f238265fa5ec5bd1925",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/notification.svg": "0ee82f1f0352e89394d0a1fa0f36d9029364c387",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/notification_active.svg": "cd4fda6a9c94c3849be3d7474a7717cb76074938",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/search-result-page/stars-blue.svg": "4fd9dd1a1a6493742c8197494a323f637796398e",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/search-result-page/stars-gray.svg": "af45b3ff583a9c9197e83c0ae2c571552cdaa36e",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/search.svg": "259522719c54c4d56a4cb198d8b0b81a1494c975",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/search_active.svg": "1fce82c6d6c15f55c6b9c9e739b415e01d3092ab",
+    "https://pzuschlag.github.io/ng-pwa/assets/images/spinner.svg": "fa6c929a9a869cf879bfc6d06498975a74d37357",
+    "https://pzuschlag.github.io/ng-pwa/config.88c7c2349606d6ac7ec9.svg": "f3084e11824326e9b23659daf4a29f828aba6c4a",
+    "https://pzuschlag.github.io/ng-pwa/config_active.f29d9b56345656fca6ab.svg": "e3509c5512283bc21119b0886f7b0c196938de43",
+    "https://pzuschlag.github.io/ng-pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://pzuschlag.github.io/ng-pwa/heart.6311dbf5958ae0c7662c.svg": "16cc9bd625c833f4460faa819624aa3b31ad972f",
+    "https://pzuschlag.github.io/ng-pwa/heart_active.5591b308eea8e51399c6.svg": "28458a213b22056eb8885f1d15417d8c4b6a031b",
+    "https://pzuschlag.github.io/ng-pwa/hotel.5bffcda7783f4164850d.svg": "a18c31ca35777fa2e0f59d794d898340fd6494cc",
+    "https://pzuschlag.github.io/ng-pwa/hotel_active.4744d964e2842d982b03.svg": "1e6ba55e50eddcf1224d85dd600df8d300fe41f3",
+    "https://pzuschlag.github.io/ng-pwa/index.html": "9d0ce847b44ca82f440bfec71308a586ee2c9814",
+    "https://pzuschlag.github.io/ng-pwa/launch.6de7bddc2382b1983e47.jpg": "bb17faa4a3040027414e763d7f086637aed9cc0c",
+    "https://pzuschlag.github.io/ng-pwa/main-es2015.474783269dd4645f97a9.js": "264a86f680a644f84dba3302a2fd2d4160d0c3d4",
+    "https://pzuschlag.github.io/ng-pwa/main-es5.40ef41afd65122a96491.js": "68bd5317edca8c1b8f8b08d030375c3f4c6ba5d5",
+    "https://pzuschlag.github.io/ng-pwa/polyfills-es2015.e4a1185e6871d06f842f.js": "a514da8731833287c9583044e9d512d74c45312a",
+    "https://pzuschlag.github.io/ng-pwa/polyfills-es5.72845f0db871433d1fef.js": "7e1b38fcb73a9607657630e25f278302170f96dc",
+    "https://pzuschlag.github.io/ng-pwa/runtime-es2015.10a1f01eef199006286d.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://pzuschlag.github.io/ng-pwa/runtime-es5.9ad22a88fcc70a015907.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://pzuschlag.github.io/ng-pwa/search.df55ac695ef9dba2e194.svg": "259522719c54c4d56a4cb198d8b0b81a1494c975",
+    "https://pzuschlag.github.io/ng-pwa/search_active.ece0edc3625e60618ca0.svg": "1fce82c6d6c15f55c6b9c9e739b415e01d3092ab",
+    "https://pzuschlag.github.io/ng-pwa/spinner.99c9da470a86818ad222.svg": "fa6c929a9a869cf879bfc6d06498975a74d37357",
+    "https://pzuschlag.github.io/ng-pwa/stars-gray.801661816f06931d3c96.svg": "af45b3ff583a9c9197e83c0ae2c571552cdaa36e",
+    "https://pzuschlag.github.io/ng-pwa/styles.c240c7d8289abe237023.css": "0d3a3a16958e8e2dcd86c5b65888df34640642b5"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
