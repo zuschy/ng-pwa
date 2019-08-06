@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1565080251914,
+  "timestamp": 1565082080129,
   "index": "https://pzuschlag.github.io/ng-pwa/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://pzuschlag.github.io/ng-pwa/favicon.ico",
         "https://pzuschlag.github.io/ng-pwa/index.html",
-        "https://pzuschlag.github.io/ng-pwa/main-es2015.474783269dd4645f97a9.js",
-        "https://pzuschlag.github.io/ng-pwa/main-es5.40ef41afd65122a96491.js",
+        "https://pzuschlag.github.io/ng-pwa/main-es2015.7027f3ef7025a0c72d6f.js",
+        "https://pzuschlag.github.io/ng-pwa/main-es5.27fb5ea6820da95cc9a1.js",
         "https://pzuschlag.github.io/ng-pwa/polyfills-es2015.e4a1185e6871d06f842f.js",
         "https://pzuschlag.github.io/ng-pwa/polyfills-es5.72845f0db871433d1fef.js",
         "https://pzuschlag.github.io/ng-pwa/runtime-es2015.10a1f01eef199006286d.js",
@@ -129,10 +129,10 @@
     "https://pzuschlag.github.io/ng-pwa/heart_active.5591b308eea8e51399c6.svg": "28458a213b22056eb8885f1d15417d8c4b6a031b",
     "https://pzuschlag.github.io/ng-pwa/hotel.5bffcda7783f4164850d.svg": "a18c31ca35777fa2e0f59d794d898340fd6494cc",
     "https://pzuschlag.github.io/ng-pwa/hotel_active.4744d964e2842d982b03.svg": "1e6ba55e50eddcf1224d85dd600df8d300fe41f3",
-    "https://pzuschlag.github.io/ng-pwa/index.html": "9d0ce847b44ca82f440bfec71308a586ee2c9814",
+    "https://pzuschlag.github.io/ng-pwa/index.html": "c39b8bb565471d9c473b4a0440b4a59e3b29375b",
     "https://pzuschlag.github.io/ng-pwa/launch.6de7bddc2382b1983e47.jpg": "bb17faa4a3040027414e763d7f086637aed9cc0c",
-    "https://pzuschlag.github.io/ng-pwa/main-es2015.474783269dd4645f97a9.js": "264a86f680a644f84dba3302a2fd2d4160d0c3d4",
-    "https://pzuschlag.github.io/ng-pwa/main-es5.40ef41afd65122a96491.js": "68bd5317edca8c1b8f8b08d030375c3f4c6ba5d5",
+    "https://pzuschlag.github.io/ng-pwa/main-es2015.7027f3ef7025a0c72d6f.js": "c009da145dfe4c9578c99a3d5a519636807efe8a",
+    "https://pzuschlag.github.io/ng-pwa/main-es5.27fb5ea6820da95cc9a1.js": "e6cfcafe7b476e00b602581d3a737c045372aba4",
     "https://pzuschlag.github.io/ng-pwa/polyfills-es2015.e4a1185e6871d06f842f.js": "a514da8731833287c9583044e9d512d74c45312a",
     "https://pzuschlag.github.io/ng-pwa/polyfills-es5.72845f0db871433d1fef.js": "7e1b38fcb73a9607657630e25f278302170f96dc",
     "https://pzuschlag.github.io/ng-pwa/runtime-es2015.10a1f01eef199006286d.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
